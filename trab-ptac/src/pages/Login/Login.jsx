@@ -1,34 +1,27 @@
 import { FaUser, FaLock} from 'react-icons/fa'
 import { Link } from 'react-router-dom';
+import styles from './login.module.css';
 
 
 function Login() {
   return (
-    <div className="container">
+    <div className={styles.container}>
         <form>
             <h1>LOGIN</h1>
-            <div>
+            <div className={styles.input_field}>
                 <input type="email" placeholder='E-mail' />
-                <FaUser className='icon' />
+                <FaUser className={styles.icon} />
             </div>
-            <div>
+             <div className={styles.input_field}>
                 <input type="password" placeholder='Senha' />
-                <FaLock className="icon" />
-            </div>
-
-            <div className='recall-forget'>
-                <label htmlFor=''>
-                    <input type="checkbox" />
-                    lembre de mim
-                </label>
-                
+                <FaLock className={styles.icon} />
             </div>
 
             <button>Entrar</button>
             
-            <div className='singnup-link'>
+            <div className={styles.singnup}>
                 <p>
-                    Não tem uma conta ? 
+                    Não tem uma conta ? <a href='#'> registrar</a> 
                 </p>
             </div>
 
