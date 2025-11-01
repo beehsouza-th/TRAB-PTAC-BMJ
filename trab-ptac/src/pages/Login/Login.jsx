@@ -1,4 +1,6 @@
 import { FaUser, FaLock} from 'react-icons/fa'
+import { Link } from 'react-router-dom';
+
 
 function Login() {
   return (
@@ -16,11 +18,20 @@ function Login() {
 
             <div className='recall-forget'>
                 <label htmlFor=''>
-                    <input type="checbox" />
+                    <input type="checkbox" />
+                    lembre de mim
                 </label>
-
+                
             </div>
+
             <button>Entrar</button>
+            
+            <div className='singnup-link'>
+                <p>
+                    Não tem uma conta ? 
+                </p>
+            </div>
+
         </form>
     </div>
   )
