@@ -1,10 +1,12 @@
-import React from 'react'
+import { FaUser, FaLock} from 'react-icons/fa'
+import { Link } from 'react-router-dom';
+import styles from './register.module.css';
 
 function Register() {
   return (
      <div className={styles.container}>
             <form>
-                <h1>LOGIN</h1>
+                <h1>CADASTRO</h1>
                 <div className={styles.input_field}>
                     <input type="email" placeholder='E-mail' />
                     <FaUser className={styles.icon} />
@@ -14,13 +16,13 @@ function Register() {
                     <FaLock className={styles.icon} />
                 </div>
     
-                <button>Entrar</button>
+                <button>Cadastrar</button>
                 
-                <div className={styles.singnup}>
-                    <p>
-                        Não tem uma conta ? <a href='#'> registrar</a> 
-                    </p>
-                </div>
+               <div className={styles.cadas}>
+                   <p>
+                     Já possui uma conta? <Link to="/login">Login</Link>
+                  </p>
+              </div>
     
             </form>
         </div>
