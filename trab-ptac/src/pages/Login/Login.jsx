@@ -21,7 +21,7 @@ function Login() {
             
             <div className={styles.singnup}>
                 <p>
-                    Não tem uma conta ? <a href='#'> registrar</a> 
+                    Não tem uma conta ? <Link to="/register">Crie uma agora</Link>
                 </p>
             </div>
 

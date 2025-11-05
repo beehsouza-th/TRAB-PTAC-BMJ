@@ -4,6 +4,7 @@ import styles from './reservation.module.css';
 function Reservation() {
   return (
     <div className={styles.container}>
+      <center>
       <form>
         <h1>Reservar Mesa</h1>
         
@@ -65,6 +66,7 @@ function Reservation() {
         </button>
         
       </form>
+      </center>
     </div>
   )
 }

@@ -6,7 +6,11 @@ function Register() {
   return (
      <div className={styles.container}>
             <form>
-                <h1>CADASTRO</h1>
+                <h1>Realizar Cadastro</h1>
+                <div className={styles.input_field}>
+                    <input type="name" placeholder='Nome' />
+                    <FaUser className={styles.icon} />
+                </div>
                 <div className={styles.input_field}>
                     <input type="email" placeholder='E-mail' />
                     <FaUser className={styles.icon} />
