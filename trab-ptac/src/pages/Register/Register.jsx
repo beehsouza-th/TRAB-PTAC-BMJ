@@ -5,6 +5,14 @@ import styles from './register.module.css';
 function Register() {
   return (
      <div className={styles.container}>
+         <header className="header">
+        <h1 className="logo">Snoopy’s BMJ</h1>
+        <nav className="nav">
+          <Link to="/login">Login</Link>
+          <Link to="/register">Registrar</Link>
+          <Link to="/reservation">Reservar</Link>
+        </nav>
+      </header>
             <form>
                 <h1>Realizar Cadastro</h1>
                 <div className={styles.input_field}>

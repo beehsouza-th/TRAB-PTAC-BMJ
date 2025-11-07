@@ -11,6 +11,13 @@
 
 }
 
+.logo {
+  font-size: 1.8rem;
+  color: #a0522d;
+  font-weight: bold;
+}
+
+
 .container h1{
     text-align: center;
     font-size: 30px;
