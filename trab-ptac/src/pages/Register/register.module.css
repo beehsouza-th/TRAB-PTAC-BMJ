@@ -6,6 +6,9 @@
   width: 100vw;           
   background-image: url('/src/assets/img-login.jpeg'); 
   background-repeat: no-repeat; 
+  background-position: center;
+  background-size: cover;
+
 }
 
 .container h1{
