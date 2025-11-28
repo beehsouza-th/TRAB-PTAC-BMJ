@@ -1,4 +1,6 @@
 import { FaUser, FaLock} from 'react-icons/fa'
+import { BsFillTelephoneFill } from "react-icons/bs";
+
 import { Link } from 'react-router-dom';
 import styles from './register.module.css';
 
@@ -21,6 +23,10 @@ function Register() {
                 </div>
                 <div className={styles.input_field}>
                     <input type="email" placeholder='E-mail' />
+                    <FaUser className={styles.icon} />
+                </div>
+                <div className={styles.input_field}>
+                    <input type="contato" placeholder='Contato' />
                     <FaUser className={styles.icon} />
                 </div>
                  <div className={styles.input_field}>
