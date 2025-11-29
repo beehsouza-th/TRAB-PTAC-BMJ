@@ -11,10 +11,18 @@
 
 }
 
+.landing-container {
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  background-color: #A0522D;
+  text-align: center;
+}
+
+
 .container h1{
     text-align: center;
     font-size: 30px;
-    color: #fff;
+    color: #d12828;
 }
 
 .container .input_field{

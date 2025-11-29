@@ -5,7 +5,18 @@ import styles from './login.module.css';
 
 function Login() {
   return (
-    <div className={styles.container}>
+         <div className={styles.container}>
+         <header className="header">
+        <h1 className="logo">Snoopy’s BMJ</h1>
+        <nav className="nav">
+            <Link to="/">Home</Link>
+            <Link to="/login">Login</Link>
+            <Link to="/register">Registrar</Link>
+            <Link to="/reservation">Reservar</Link>
+            <Link to="/consultar-mesas">Consultar Mesas</Link>
+           <Link to="/listar-reservas">Listar Reservas</Link>
+                </nav>
+              </header>
         <form>
             <h1>LOGIN</h1>
             <div className={styles.input_field}>

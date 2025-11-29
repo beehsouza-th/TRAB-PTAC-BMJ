@@ -5,6 +5,13 @@
   --border-radius: 8px;
 }
 
+.landing-container {
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  background-color: #fff;
+  text-align: center;
+}
+
 .container {
   display: flex;
   justify-content: center;

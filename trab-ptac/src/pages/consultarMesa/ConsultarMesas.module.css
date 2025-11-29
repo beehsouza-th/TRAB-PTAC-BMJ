@@ -1,0 +1,70 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 30px;
+  background: #f7f7f7;
+}
+
+.title {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.grid {
+  width: 90%;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.12);
+  transition: 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 5px 18px rgba(0,0,0,0.15);
+}
+
+.icon {
+  font-size: 2.5rem;
+  color: #6a6a6a;
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  margin-bottom: 8px;
+  font-size: 1.4rem;
+  color: #222;
+}
+
+.livre,
+.ocupada {
+  margin-top: 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+.livre {
+  background: #d6f5d6;
+  color: #2e8b2e;
+}
+
+.ocupada {
+  background: #ffd6d6;
+  color: #b32626;
+}
