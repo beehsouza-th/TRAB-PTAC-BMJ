@@ -1,4 +1,6 @@
 import { FaUser, FaLock} from 'react-icons/fa'
+import { BsFillTelephoneFill } from "react-icons/bs";
+
 import { Link } from 'react-router-dom';
 import styles from './register.module.css';
 
